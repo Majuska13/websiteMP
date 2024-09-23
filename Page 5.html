@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lochquarry Outdoor Centre - Staff Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        /* Header Banner */
+        .header-banner {
+            width: 100%;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            font-weight: bold;
+            color: #3a3a3a;
+        }
+        .header-banner img {
+            max-width: 100%;
+            height: auto;
+        }
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation Menu */
+        nav ul {
+            list-style-type: none;
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        /* Staff Section */
+        .staff-section {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            width: 90%;
+        }
+
+        .staff-member {
+            width: 30%;
+            padding: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .staff-member img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .staff-member h2 {
+            margin-bottom: 10px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        .staff-member p {
+            margin-bottom: 10px;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #00aced;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        // JavaScript function to handle Trustpilot link click
+        function visitTrustpilot() {
+            const confirmVisit = confirm("You are about to leave this page to visit Trustpilot. Do you want to continue?");
+            if (confirmVisit) {
+                window.open("https://www.trustpilot.com/review/lochquarryoutdoorcentre.com", "_blank");
+            }
+        }
+    </script>
+</head>
+<body>
+     <!-- Header Banner -->
+     <div class="header-banner">
+        <img src="Banner -min.jpg" alt="Lochquarry Outdoor Centre Banner">
+    </div>
+
+    
+    
+       <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index 1.html">Home</a></li>
+            <li><a href="Page 2.html">Land-based Activities</a></li>
+            <li><a href="Page 3.html">Water-Based Activities</a></li>
+            <li><a href="Page 4.html">Rope-Based Activities</a></li>
+            <li><a href="Page 5.html">Staff/Reviews</a></li>
+        </ul>
+    </nav>
+
+    <!-- Staff Section -->
+    <div class="staff-section">
+        <!-- Staff Member 1 -->
+        <div class="staff-member">
+            <h2>Claire Jack</h2>
+            <img src="Claire_Jack.jpeg" alt="Claire Jack">
+            <p>Position: Centre Manager
+                Responsible for: The overall running of the centre and all of its activities
+                Favourite Activity: 
+                Pole climb</p>
+        </div>
+
+        <!-- Staff Member 2 -->
+        <div class="staff-member">
+            <h2>Robbie Elliot</h2>
+            <img src="Robbie_Elliot.jpeg" alt="Robbie Elliot">
+            <p>Position: Senior Instructor (Land)
+                Responsible for: Overseeing all of the land based activities
+                Favourite Activity: Hillwalking in the beautiful Scottish highlands</p>
+        </div>
+
+        <!-- Staff Member 3 -->
+        <div class="staff-member">
+            <h2>Marion Hunter</h2>
+            <img src="Marion_Hunter.jpg" alt="Marion Hunter">
+            <p>Position: Centre Administrator
+                Responsible for: Making bookings and arranging activity slots for groups
+                Favourite Activity: Making sure everyone has a great time when the visit 
+                Lochquarry</p>
+        </div>
+    </div>
+
+    <!-- Trustpilot Link -->
+    <div>
+        <p><a href="javascript:void(0);" onclick="visitTrustpilot()">Link to Trustpilot showing more reviews</a></p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Follow us on social media to find out more</p>
+        <a href="#">Link to social media</a>
+    </footer>
+
+</body>
+</html>
